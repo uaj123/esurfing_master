@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6454799f-84ba-49f1-aea4-2d19f8ab736c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1X75alWEq8RGl5sqEXbHg2VaEgm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.uaj.test" />
+      <recent name="cn.uaj.service.impl" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Account_tx_annotation_Test.findByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account_tx_xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.uaj.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.uaj.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.uaj.test.Account_tx_annotation_Test" />
+      <option name="METHOD_NAME" value="findByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Account_tx_annotation_Test.transferTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account_tx_xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.uaj.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.uaj.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.uaj.test.Account_tx_annotation_Test" />
+      <option name="METHOD_NAME" value="transferTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Account_tx_xml_Test.findByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account_tx_xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.uaj.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.uaj.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.uaj.test.Account_tx_xml_Test" />
+      <option name="METHOD_NAME" value="findByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Account_tx_xml_Test.transferTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account_tx_xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.uaj.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.uaj.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.uaj.test.Account_tx_xml_Test" />
+      <option name="METHOD_NAME" value="transferTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Account_tx_annotation_Test.transferTest" />
+        <item itemvalue="JUnit.Account_tx_annotation_Test.findByIdTest" />
+        <item itemvalue="JUnit.Account_tx_xml_Test.findByIdTest" />
+        <item itemvalue="JUnit.Account_tx_xml_Test.transferTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6454799f-84ba-49f1-aea4-2d19f8ab736c" name="Default Changelist" comment="" />
+      <created>1580384357934</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580384357934</updated>
+      <workItem from="1580384359196" duration="1091000" />
+      <workItem from="1580451581858" duration="4865000" />
+      <workItem from="1580459549691" duration="2342000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580460417891">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1580460417891" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1580470126871">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580470126871" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1580470126871">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580470126871" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1580470126871">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580470126871" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1580470126871">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580470126871" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1580470126872">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580470126872" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1580470126872">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580470126872" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1580470126871">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580470126871" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1580470126872">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580470126872" />
+    <state x="339" y="0" key="SettingsEditor" timestamp="1580459591784">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="339" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580459591784" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1580459555700">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580459555700" />
+    <state x="431" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1580457995871">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1580457995871" />
+    <state x="411" y="141" key="spring file set editor" timestamp="1580459622255">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="411" y="141" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1580459622255" />
+  </component>
+</project>

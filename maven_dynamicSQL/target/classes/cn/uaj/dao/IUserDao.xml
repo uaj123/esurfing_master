@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.uaj.dao.IUserDao">
+    <!--定义User的resultMap-->
+    <resultMap id="userAccountMap" type="user">
+        <id property="id" column="id"></id>
+        <result property="username" column="username"></result>
+        <result property="sex" column="sex"></result>
+        <result property="address" column="address"></result>
+        <result property="birthday" column="birthday"></result>
+        <!--配置user对象中的accounts集合的映射-->
+        <collection property="accounts" ofType="account">
+            <id column="aid" property="id"></id>
+            <result property="uid" column="uid"></result>
+            <result property="money" column="money"></result>
+        </collection>
+    </resultMap>
+    <!--抽取重复的sql语句-->
+    <sql id="defaultUer">
+        select * from user
+    </sql>
+    <!--查询所有-->
+    <!--<select id="findAll" resultType="user">-->
+        <!--select * from user-->
+        <!--<include refid="defaultUer"></include>-->
+    <!--</select>-->
+    <!--查询所有user，并且包含account，一对多-->
+    <select id="findAll" resultMap="userAccountMap">
+        SELECT * from user u LEFT OUTER JOIN account a ON a.uid = u.id;
+    </select>
+    <!--根据username模糊查询-->
+    <select id="findLike" parameterType="String" resultType="User">
+        <include refid="defaultUer"></include> where username like #{username};
+    </select>
+
+    <!--根据queryVo模糊查询-->
+    <select id="findByVo" parameterType="cn.uaj.entity.QueryVo" resultType="User">
+        select * from user where username like #{user.username};
+    </select>
+    <!--根据条件查询-->
+    <!--
+    <select id="findByCondition" resultType="User" parameterType="user">
+        -》if语句  , 当下面条件满足时，sql语句会拼上满足条件的语句
+        select * from user where 1=1
+        <if test="username != null">
+            and username = #{username}
+        </if>
+        <if test="sex != null">
+            and sex = #{sex}
+        </if>
+    </select>
+    -->
+    <!--where语句，可以不用写where 1 = 1这个语句-->
+   <select id="findByCondition" resultType="User" parameterType="user">
+        select * from user
+        <where>
+            <if test="username != null">
+                and username = #{username}
+            </if>
+            <if test="sex != null">
+                and sex = #{sex}
+            </if>
+            <if test="address != null">
+                and address = #{address}
+            </if>
+        </where>
+    </select>
+    <!--foreach语句-->
+    <select id="findIndsId" resultType="user" parameterType="queryVo">
+        select * from user
+        <where>
+            <if test="ids != null and ids.size() > 0">
+                <!-- foreach用于遍历集合，collection代表要遍历的集合元素，open代表语句的开始部分
+                 close代表结束部分，item代表遍历集合的每个元素，生成的变量名，sperator代表分隔符
+                 -->
+                <foreach collection="ids" open="and id in (" close=")" item="uid" separator=",">
+                    #{uid}
+                </foreach>
+            </if>
+        </where>
+    </select>
+</mapper>

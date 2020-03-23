@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="maven_ssm_web:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c552d336-79f0-4ead-8864-4266439ecb5e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\maven_jar_package\maven_repository" />
+        <option name="mavenHome" value="E:/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XbmDKVBwtRsK7fVpqGp5zex2Ws" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring_ssm" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDE\IntelliJ_IDEA_2019.3\workspace\maven_ssm_parent\maven_ssm_web\src\main\resources" />
+      <recent name="E:\IDE\IntelliJ_IDEA_2019.3\workspace\maven_ssm_parent\maven_ssm_web\src\main\resources\spring" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDE\IntelliJ_IDEA_2019.3\workspace\maven_ssm_parent\maven_ssm_web\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="maven_ssm_parent" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="maven_ssm_web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_maven_ssm_parent" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54488" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="maven_ssm_web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\uaj\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\IDE\IntelliJ_IDEA_2019.3\workspace\maven_ssm_parent" />
+          <option name="myCopyRoot" value="E:\IDE\IntelliJ_IDEA_2019.3\workspace\maven_ssm_parent" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\IDE\IntelliJ_IDEA_2019.3\workspace\maven_ssm_parent" />
+          <option name="myCopyRoot" value="E:\IDE\IntelliJ_IDEA_2019.3\workspace\maven_ssm_parent" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c552d336-79f0-4ead-8864-4266439ecb5e" name="Default Changelist" comment="" />
+      <created>1581323047868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581323047868</updated>
+      <workItem from="1581323050942" duration="1404000" />
+      <workItem from="1581326461567" duration="5589000" />
+      <workItem from="1581336682962" duration="4347000" />
+      <workItem from="1581342412358" duration="25000" />
+      <workItem from="1581342445195" duration="2864000" />
+      <workItem from="1581491180724" duration="81000" />
+      <workItem from="1581492255230" duration="1103000" />
+      <workItem from="1582276691089" duration="140000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="183" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581342456656">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="183" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1581342456656" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1581337235079">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581337235079" />
+    <state x="374" y="0" key="CommitChangelistDialog2" timestamp="1581493290644">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="374" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581493290644" />
+    <state x="727" y="178" key="FileChooserDialogImpl" timestamp="1581492943973">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="727" y="178" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581492943973" />
+    <state width="1024" height="289" key="GridCell.Tab.0.bottom" timestamp="1581496926783">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="289" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581496926783" />
+    <state width="1024" height="289" key="GridCell.Tab.0.center" timestamp="1581496926783">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="289" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581496926783" />
+    <state width="1024" height="289" key="GridCell.Tab.0.left" timestamp="1581496926783">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="289" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581496926782" />
+    <state width="1024" height="289" key="GridCell.Tab.0.right" timestamp="1581496926783">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="289" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581496926783" />
+    <state width="1024" height="289" key="GridCell.Tab.1.bottom" timestamp="1581496926783">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="289" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581496926783" />
+    <state width="1024" height="289" key="GridCell.Tab.1.center" timestamp="1581496926783">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="289" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581496926783" />
+    <state width="1024" height="289" key="GridCell.Tab.1.left" timestamp="1581496926783">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="289" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581496926783" />
+    <state width="1024" height="289" key="GridCell.Tab.1.right" timestamp="1581496926783">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="289" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581496926783" />
+    <state width="1024" height="289" key="GridCell.Tab.2.bottom" timestamp="1581496926783">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="289" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581496926783" />
+    <state width="1024" height="289" key="GridCell.Tab.2.center" timestamp="1581496926783">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="289" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1581496926783" />
+    <state width="1024" height="289" key="GridCell.Tab.2.left" timestamp="1581496926783">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="289" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1581496926783" />
+    <state width="1024" height="289" key="GridCell.Tab.2.right" timestamp="1581496926783">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="289" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1581496926783" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1581496906571">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581496906571" />
+    <state x="559" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581493216523">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="559" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1581493216523" />
+    <state x="356" y="118" key="new project wizard" timestamp="1581323198600">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="356" y="118" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1581323198600" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581332751389">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1581332751389" />
+    <state x="526" y="101" key="svn.repositoryBrowser" timestamp="1581492954011">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="526" y="101" key="svn.repositoryBrowser/0.0.1536.824@0.0.1536.824" timestamp="1581492954011" />
+    <state x="744" y="370" key="svn.sslCredentialsDialog" timestamp="1581492374684">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="744" y="370" key="svn.sslCredentialsDialog/0.0.1536.824@0.0.1536.824" timestamp="1581492374684" />
+    <state x="552" y="383" key="svn.upgradeDialog" timestamp="1581492955955">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="552" y="383" key="svn.upgradeDialog/0.0.1536.824@0.0.1536.824" timestamp="1581492955955" />
+  </component>
+</project>

@@ -1,0 +1,27 @@
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+    &lt;!&ndash;注解和xml一起用时的配置文件&ndash;&gt;
+    &lt;!&ndash;通知spring创建bean对象时要扫描的包&ndash;&gt;
+    <context:component-scan base-package="cn.uaj"></context:component-scan>
+    &lt;!&ndash;配置queryRunner,多例创建queryRunner对象&ndash;&gt;
+    <bean id="queryRunner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype">
+        &lt;!&ndash;注入数据源&ndash;&gt;
+        <constructor-arg name="ds" ref="dataSource"></constructor-arg>
+    </bean>
+    &lt;!&ndash;配置连接池&ndash;&gt;
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        &lt;!&ndash;注入数据库连接必备信息&ndash;&gt;
+        <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/spring?useSSL=true"></property>
+        <property name="user" value="root"></property>
+        <property name="password" value="jie123987?"></property>
+    </bean>
+</beans>
+-->

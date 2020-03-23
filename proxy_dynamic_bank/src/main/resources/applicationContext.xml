@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--配置accountService-->
+    <bean id="accountService" class="cn.uaj.service.impl.AccountServiceImpl">
+        <!--注入accountDao对象-->
+        <property name="accountDao" ref="accountDao"></property>
+    </bean>
+    <!--配置代理对象的工厂类-->
+    <bean id="beanFactory" class="cn.uaj.factory.BeanFactory">
+        <!--注入事务管理工具类transactionManager-->
+        <property name="transactionManager" ref="transactionManager"></property>
+        <!--注入service-->
+        <property name="accountService" ref="accountService"></property>
+    </bean>
+    <!--配置代理的accountService-->
+    <bean id="accountServiceProxy" factory-bean="beanFactory" factory-method="getAccountService">
+
+    </bean>
+    <!--配置accountDao对象-->
+    <bean id="accountDao" class="cn.uaj.dao.impl.AccountDaoImpl">
+        <!--注入queryRunner-->
+        <property name="queryRunner" ref="queryRunner"></property>
+        <!--注入connectionUtils-->
+        <property name="connectionUtils" ref="connectionUtils"></property>
+    </bean>
+    <!--配置queryRunner,多例创建queryRunner对象-->
+    <bean id="queryRunner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype"/>
+    <!--配置连接池-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <!--注入数据库连接必备信息-->
+        <property name="driverClass" value="com.mysql.jdbc.Driver"></property>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/spring?useSSL=true"></property>
+        <property name="user" value="root"></property>
+        <property name="password" value="jie123987"></property>
+    </bean>
+    <!--配置connection的工具类connectionUtils-->
+    <bean id="connectionUtils" class="cn.uaj.utils.ConnectionUtils">
+        <!--注入数据源-->
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+    <!--配置事务的工具类transactionManager-->
+    <bean id="transactionManager" class="cn.uaj.utils.TransactionManager">
+        <!--注入connectionUtils-->
+        <property name="connectionUtils" ref="connectionUtils"></property>
+    </bean>
+</beans>

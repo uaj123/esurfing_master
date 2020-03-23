@@ -1,0 +1,133 @@
+2020-01-16 17:55:25,012 0      [           main] INFO         com.mchange.v2.log.MLog  - MLog clients using log4j logging.
+2020-01-16 17:55:27,147 2135   [           main] INFO  m.mchange.v2.c3p0.C3P0Registry  - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2020-01-16 17:55:27,555 2543   [           main] DEBUG icPooledDataSourceManagerMBean  - MBean: com.mchange.v2.c3p0:type=PooledDataSource[1hge1eea71c7tvj212qfcwb|397fbdb] registered.
+2020-01-16 17:55:28,525 3513   [           main] DEBUG resourcepool.BasicResourcePool  - incremented pending_acquires: 1
+2020-01-16 17:55:28,526 3514   [           main] DEBUG resourcepool.BasicResourcePool  - incremented pending_acquires: 2
+2020-01-16 17:55:28,526 3514   [           main] DEBUG resourcepool.BasicResourcePool  - incremented pending_acquires: 3
+2020-01-16 17:55:28,527 3515   [           main] DEBUG resourcepool.BasicResourcePool  - com.mchange.v2.resourcepool.BasicResourcePool@7e9131d5 config: [start -> 3; min -> 3; max -> 15; inc -> 3; num_acq_attempts -> 30; acq_attempt_delay -> 1000; check_idle_resources_delay -> 0; mox_resource_age -> 0; max_idle_time -> 0; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 0; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false]
+2020-01-16 17:55:28,529 3517   [           main] INFO  l.AbstractPoolBackedDataSource  - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge1eea71c7tvj212qfcwb|397fbdb, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1eea71c7tvj212qfcwb|397fbdb, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/spring?useSSL=true, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2020-01-16 17:55:28,529 3517   [           main] DEBUG resourcepool.BasicResourcePool  - acquire test -- pool size: 0; target_pool_size: 3; desired target? 1
+2020-01-16 17:55:28,529 3517   [           main] DEBUG resourcepool.BasicResourcePool  - awaitAvailable(): [unknown]
+2020-01-16 17:55:28,530 3518   [           main] DEBUG resourcepool.BasicResourcePool  - trace com.mchange.v2.resourcepool.BasicResourcePool@7e9131d5 [managed: 0, unused: 0, excluded: 0]
+2020-01-16 17:55:29,547 4535   [r$PoolThread-#2] DEBUG .impl.C3P0PooledConnectionPool  - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@16644bb9.acquireResource() returning. 
+2020-01-16 17:55:29,553 4541   [r$PoolThread-#0] DEBUG .impl.C3P0PooledConnectionPool  - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@16644bb9.acquireResource() returning. 
+2020-01-16 17:55:29,553 4541   [r$PoolThread-#1] DEBUG .impl.C3P0PooledConnectionPool  - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@16644bb9.acquireResource() returning. 
+2020-01-16 17:55:29,553 4541   [r$PoolThread-#2] DEBUG resourcepool.BasicResourcePool  - trace com.mchange.v2.resourcepool.BasicResourcePool@7e9131d5 [managed: 1, unused: 1, excluded: 0]
+2020-01-16 17:55:29,554 4542   [r$PoolThread-#2] DEBUG resourcepool.BasicResourcePool  - decremented pending_acquires: 2
+2020-01-16 17:55:29,554 4542   [r$PoolThread-#1] DEBUG resourcepool.BasicResourcePool  - trace com.mchange.v2.resourcepool.BasicResourcePool@7e9131d5 [managed: 2, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1786ccea)
+2020-01-16 17:55:29,554 4542   [r$PoolThread-#1] DEBUG resourcepool.BasicResourcePool  - decremented pending_acquires: 1
+2020-01-16 17:55:29,554 4542   [r$PoolThread-#0] DEBUG resourcepool.BasicResourcePool  - trace com.mchange.v2.resourcepool.BasicResourcePool@7e9131d5 [managed: 3, unused: 3, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1786ccea)
+2020-01-16 17:55:29,558 4546   [r$PoolThread-#0] DEBUG resourcepool.BasicResourcePool  - decremented pending_acquires: 0
+2020-01-16 17:55:29,559 4547   [           main] DEBUG resourcepool.BasicResourcePool  - trace com.mchange.v2.resourcepool.BasicResourcePool@7e9131d5 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1786ccea)
+2020-01-16 17:55:29,656 4644   [           main] DEBUG resourcepool.BasicResourcePool  - trace com.mchange.v2.resourcepool.BasicResourcePool@7e9131d5 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1786ccea)
+2020-01-16 17:55:29,656 4644   [           main] DEBUG resourcepool.BasicResourcePool  - trace com.mchange.v2.resourcepool.BasicResourcePool@7e9131d5 [managed: 3, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1786ccea)
+2020-01-16 17:55:29,659 4647   [           main] DEBUG resourcepool.BasicResourcePool  - trace com.mchange.v2.resourcepool.BasicResourcePool@7e9131d5 [managed: 3, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1786ccea)
+2020-01-16 17:55:29,660 4648   [           main] DEBUG resourcepool.BasicResourcePool  - trace com.mchange.v2.resourcepool.BasicResourcePool@7e9131d5 [managed: 3, unused: 0, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1786ccea)
+2020-01-16 17:55:29,887 4875   [           main] DEBUG resourcepool.BasicResourcePool  - trace com.mchange.v2.resourcepool.BasicResourcePool@7e9131d5 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1786ccea)
+2020-01-16 17:55:29,914 4902   [           main] DEBUG resourcepool.BasicResourcePool  - trace com.mchange.v2.resourcepool.BasicResourcePool@7e9131d5 [managed: 3, unused: 1, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1786ccea)
+2020-01-16 17:55:30,006 4994   [           main] DEBUG resourcepool.BasicResourcePool  - trace com.mchange.v2.resourcepool.BasicResourcePool@7e9131d5 [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@1786ccea)
+2020-01-16 17:55:30,032 5020   [r$PoolThread-#1] DEBUG c.ThreadPoolAsynchronousRunner  - Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1,5,main] interrupted. Shutting down.
+2020-01-16 17:55:30,034 5022   [rcePool.close()] DEBUG resourcepool.BasicResourcePool  - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@55cb636b
+2020-01-16 17:55:30,032 5020   [r$PoolThread-#2] DEBUG c.ThreadPoolAsynchronousRunner  - Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2,5,main] interrupted. Shutting down.
+2020-01-16 17:55:30,032 5020   [r$PoolThread-#0] DEBUG c.ThreadPoolAsynchronousRunner  - Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0,5,main] interrupted. Shutting down.
+2020-01-16 17:55:30,034 5022   [       Thread-1] DEBUG nt.ActiveManagementCoordinator  - MBean: com.mchange.v2.c3p0:type=PooledDataSource[1hge1eea71c7tvj212qfcwb|397fbdb] unregistered.
+2020-01-16 17:55:30,034 5022   [rcePool.close()] DEBUG .impl.C3P0PooledConnectionPool  - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@55cb636b
+2020-01-16 17:55:30,035 5023   [       Thread-1] DEBUG nt.ActiveManagementCoordinator  - C3P0Registry mbean unregistered.
+2020-01-16 17:55:30,037 5025   [       Thread-1] DEBUG l.AbstractPoolBackedDataSource  - com.mchange.v2.c3p0.ComboPooledDataSource@397fbdb has been closed. 
+java.lang.Exception: DEBUG STACK TRACE for PoolBackedDataSource.close().
+	at com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.close(AbstractPoolBackedDataSource.java:417)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:337)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:271)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1055)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1062)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+2020-01-16 17:55:30,066 5054   [rcePool.close()] DEBUG .c3p0.impl.NewPooledConnection  - com.mchange.v2.c3p0.impl.NewPooledConnection@55cb636b closed by a client.
+java.lang.Exception: DEBUG -- CLOSE BY CLIENT STACK TRACE
+	at com.mchange.v2.c3p0.impl.NewPooledConnection.close(NewPooledConnection.java:566)
+	at com.mchange.v2.c3p0.impl.NewPooledConnection.close(NewPooledConnection.java:234)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.destroyResource(C3P0PooledConnectionPool.java:470)
+	at com.mchange.v2.resourcepool.BasicResourcePool$1DestroyResourceTask.run(BasicResourcePool.java:964)
+	at com.mchange.v2.resourcepool.BasicResourcePool.destroyResource(BasicResourcePool.java:989)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$5.run(BasicResourcePool.java:1174)
+2020-01-16 17:55:30,075 5063   [rcePool.close()] DEBUG .impl.C3P0PooledConnectionPool  - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@55cb636b
+2020-01-16 17:55:30,076 5064   [rcePool.close()] DEBUG resourcepool.BasicResourcePool  - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@55cb636b
+2020-01-16 17:55:30,076 5064   [rcePool.close()] DEBUG resourcepool.BasicResourcePool  - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1786ccea
+2020-01-16 17:55:30,076 5064   [rcePool.close()] DEBUG .impl.C3P0PooledConnectionPool  - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1786ccea
+2020-01-16 17:55:30,081 5069   [rcePool.close()] DEBUG .c3p0.impl.NewPooledConnection  - com.mchange.v2.c3p0.impl.NewPooledConnection@1786ccea closed by a client.
+java.lang.Exception: DEBUG -- CLOSE BY CLIENT STACK TRACE
+	at com.mchange.v2.c3p0.impl.NewPooledConnection.close(NewPooledConnection.java:566)
+	at com.mchange.v2.c3p0.impl.NewPooledConnection.close(NewPooledConnection.java:234)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.destroyResource(C3P0PooledConnectionPool.java:470)
+	at com.mchange.v2.resourcepool.BasicResourcePool$1DestroyResourceTask.run(BasicResourcePool.java:964)
+	at com.mchange.v2.resourcepool.BasicResourcePool.destroyResource(BasicResourcePool.java:989)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$5.run(BasicResourcePool.java:1174)
+2020-01-16 17:55:30,085 5073   [rcePool.close()] DEBUG .impl.C3P0PooledConnectionPool  - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1786ccea
+2020-01-16 17:55:30,086 5074   [rcePool.close()] DEBUG resourcepool.BasicResourcePool  - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1786ccea
+2020-01-16 17:55:30,086 5074   [rcePool.close()] DEBUG resourcepool.BasicResourcePool  - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@5cc391e6
+2020-01-16 17:55:30,086 5074   [rcePool.close()] DEBUG .impl.C3P0PooledConnectionPool  - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@5cc391e6
+2020-01-16 17:55:30,087 5075   [rcePool.close()] DEBUG .c3p0.impl.NewPooledConnection  - com.mchange.v2.c3p0.impl.NewPooledConnection@5cc391e6 closed by a client.
+java.lang.Exception: DEBUG -- CLOSE BY CLIENT STACK TRACE
+	at com.mchange.v2.c3p0.impl.NewPooledConnection.close(NewPooledConnection.java:566)
+	at com.mchange.v2.c3p0.impl.NewPooledConnection.close(NewPooledConnection.java:234)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.destroyResource(C3P0PooledConnectionPool.java:470)
+	at com.mchange.v2.resourcepool.BasicResourcePool$1DestroyResourceTask.run(BasicResourcePool.java:964)
+	at com.mchange.v2.resourcepool.BasicResourcePool.destroyResource(BasicResourcePool.java:989)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$100(BasicResourcePool.java:32)
+	at com.mchange.v2.resourcepool.BasicResourcePool$5.run(BasicResourcePool.java:1174)
+2020-01-16 17:55:30,089 5077   [rcePool.close()] DEBUG .impl.C3P0PooledConnectionPool  - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@5cc391e6
+2020-01-16 17:55:30,092 5080   [rcePool.close()] DEBUG resourcepool.BasicResourcePool  - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@5cc391e6
+2020-01-16 22:18:21,163 0      [           main] INFO         com.mchange.v2.log.MLog  - MLog clients using log4j logging.
+2020-01-16 22:18:21,888 725    [           main] INFO  m.mchange.v2.c3p0.C3P0Registry  - Initializing c3p0-0.9.1.2 [built 21-May-2007 15:04:56; debug? true; trace: 10]
+2020-01-16 22:18:21,961 798    [           main] DEBUG icPooledDataSourceManagerMBean  - MBean: com.mchange.v2.c3p0:type=PooledDataSource[1hge1eea71ch80d21fp9qp8|639c2c1d] registered.
+2020-01-16 22:18:22,276 1113   [           main] DEBUG resourcepool.BasicResourcePool  - incremented pending_acquires: 1
+2020-01-16 22:18:22,277 1114   [           main] DEBUG resourcepool.BasicResourcePool  - incremented pending_acquires: 2
+2020-01-16 22:18:22,278 1115   [           main] DEBUG resourcepool.BasicResourcePool  - incremented pending_acquires: 3
+2020-01-16 22:18:22,300 1137   [           main] DEBUG resourcepool.BasicResourcePool  - com.mchange.v2.resourcepool.BasicResourcePool@2525ff7e config: [start -> 3; min -> 3; max -> 15; inc -> 3; num_acq_attempts -> 30; acq_attempt_delay -> 1000; check_idle_resources_delay -> 0; mox_resource_age -> 0; max_idle_time -> 0; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 0; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false]
+2020-01-16 22:18:22,384 1221   [           main] INFO  l.AbstractPoolBackedDataSource  - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge1eea71ch80d21fp9qp8|639c2c1d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1eea71ch80d21fp9qp8|639c2c1d, idleConnectionTestPeriod -> 0, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://localhost:3306/spring?useSSL=true, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2020-01-16 22:18:22,384 1221   [           main] DEBUG resourcepool.BasicResourcePool  - acquire test -- pool size: 0; target_pool_size: 3; desired target? 1
+2020-01-16 22:18:22,384 1221   [           main] DEBUG resourcepool.BasicResourcePool  - awaitAvailable(): [unknown]
+2020-01-16 22:18:22,385 1222   [           main] DEBUG resourcepool.BasicResourcePool  - trace com.mchange.v2.resourcepool.BasicResourcePool@2525ff7e [managed: 0, unused: 0, excluded: 0]
+2020-01-16 22:18:23,077 1914   [r$PoolThread-#1] DEBUG .impl.C3P0PooledConnectionPool  - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@6d89b290.acquireResource() returning. 
+2020-01-16 22:18:23,079 1916   [r$PoolThread-#1] DEBUG resourcepool.BasicResourcePool  - trace com.mchange.v2.resourcepool.BasicResourcePool@2525ff7e [managed: 1, unused: 1, excluded: 0]
+2020-01-16 22:18:23,079 1916   [r$PoolThread-#1] DEBUG resourcepool.BasicResourcePool  - decremented pending_acquires: 2
+2020-01-16 22:18:23,081 1918   [r$PoolThread-#2] DEBUG .impl.C3P0PooledConnectionPool  - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@6d89b290.acquireResource() returning. 
+2020-01-16 22:18:23,081 1918   [r$PoolThread-#2] DEBUG resourcepool.BasicResourcePool  - trace com.mchange.v2.resourcepool.BasicResourcePool@2525ff7e [managed: 2, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@4354713c)
+2020-01-16 22:18:23,085 1922   [r$PoolThread-#2] DEBUG resourcepool.BasicResourcePool  - decremented pending_acquires: 1
+2020-01-16 22:18:23,091 1928   [r$PoolThread-#0] DEBUG .impl.C3P0PooledConnectionPool  - com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager@6d89b290.acquireResource() returning. 
+2020-01-16 22:18:23,091 1928   [r$PoolThread-#0] DEBUG resourcepool.BasicResourcePool  - trace com.mchange.v2.resourcepool.BasicResourcePool@2525ff7e [managed: 3, unused: 3, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@4354713c)
+2020-01-16 22:18:23,094 1931   [r$PoolThread-#0] DEBUG resourcepool.BasicResourcePool  - decremented pending_acquires: 0
+2020-01-16 22:18:23,095 1932   [           main] DEBUG resourcepool.BasicResourcePool  - trace com.mchange.v2.resourcepool.BasicResourcePool@2525ff7e [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@4354713c)
+2020-01-16 22:18:23,245 2082   [           main] DEBUG resourcepool.BasicResourcePool  - trace com.mchange.v2.resourcepool.BasicResourcePool@2525ff7e [managed: 3, unused: 2, excluded: 0] (e.g. com.mchange.v2.c3p0.impl.NewPooledConnection@4354713c)
+2020-01-16 22:18:23,257 2094   [       Thread-1] DEBUG nt.ActiveManagementCoordinator  - MBean: com.mchange.v2.c3p0:type=PooledDataSource[1hge1eea71ch80d21fp9qp8|639c2c1d] unregistered.
+2020-01-16 22:18:23,258 2095   [       Thread-1] DEBUG nt.ActiveManagementCoordinator  - C3P0Registry mbean unregistered.
+2020-01-16 22:18:23,258 2095   [r$PoolThread-#0] DEBUG c.ThreadPoolAsynchronousRunner  - Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#0,5,main] interrupted. Shutting down.
+2020-01-16 22:18:23,259 2096   [r$PoolThread-#2] DEBUG c.ThreadPoolAsynchronousRunner  - Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#2,5,main] interrupted. Shutting down.
+2020-01-16 22:18:23,260 2097   [r$PoolThread-#1] DEBUG c.ThreadPoolAsynchronousRunner  - Thread[com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread-#1,5,main] interrupted. Shutting down.
+2020-01-16 22:18:23,260 2097   [       Thread-1] DEBUG l.AbstractPoolBackedDataSource  - com.mchange.v2.c3p0.ComboPooledDataSource@639c2c1d has been closed. 
+java.lang.Exception: DEBUG STACK TRACE for PoolBackedDataSource.close().
+	at com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.close(AbstractPoolBackedDataSource.java:417)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:337)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:271)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1055)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1062)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)

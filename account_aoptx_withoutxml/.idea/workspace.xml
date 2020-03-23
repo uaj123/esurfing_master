@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="001f4314-8019-4288-a3b9-6673fef58a98" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1X9tm1H9AMY1hpbHjdMYvxU3Sb0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="cn.uaj.dao.impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDE\IntelliJ_IDEA_2019.3\workspace\account_aoptx_withoutxml\src\main\resources" />
+      <recent name="E:\IDE\IntelliJ_IDEA_2019.3\workspace\account_aoptx_withoutxml\src\main\resources\config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Account_tx_annotation_Test.findByIdTest">
+    <configuration name="Account_tx_annotation_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account_aoptx_withoutxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.uaj.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.uaj.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.uaj.test.Account_tx_annotation_Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Account_tx_annotation_Test.findByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account_aoptx_withoutxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.uaj.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.uaj.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.uaj.test.Account_tx_annotation_Test" />
+      <option name="METHOD_NAME" value="findByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Account_tx_annotation_Test.transferTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="account_aoptx_withoutxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.uaj.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.uaj.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.uaj.test.Account_tx_annotation_Test" />
+      <option name="METHOD_NAME" value="transferTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Account_tx_annotation_Test.findByIdTest" />
+        <item itemvalue="JUnit.Account_tx_annotation_Test.transferTest" />
+        <item itemvalue="JUnit.Account_tx_annotation_Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="001f4314-8019-4288-a3b9-6673fef58a98" name="Default Changelist" comment="" />
+      <created>1580470292031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580470292031</updated>
+      <workItem from="1580470293289" duration="4294000" />
+      <workItem from="1580474606423" duration="1643000" />
+      <workItem from="1580476273319" duration="2120000" />
+      <workItem from="1580539058469" duration="1565000" />
+      <workItem from="1580726052390" duration="1198000" />
+      <workItem from="1580879214398" duration="603000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Inspections" timestamp="1580538931660">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1580538931660" />
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1580476052323">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1580476052323" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580474646811">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1580474646811" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1580474757371">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1580474757371" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580475581009">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1580475581009" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1580542264618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580542264618" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1580542264618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580542264618" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1580542264618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580542264618" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1580542264618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580542264618" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1580542264619">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580542264619" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1580542264619">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580542264619" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1580542264619">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580542264619" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1580542264619">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580542264619" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1580476551642">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1580476551642" />
+    <state x="377" y="0" key="SettingsEditor" timestamp="1580476186735">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="377" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580476186735" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1580879214310">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1580879214310" />
+    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580474484044">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1580474484044" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1580471778889">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1580471778889" />
+    <state x="297" y="73" key="spring file set editor" timestamp="1580476128137">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="297" y="73" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1580476128137" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cn/uaj/dao/impl/AccountDaoImpl.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

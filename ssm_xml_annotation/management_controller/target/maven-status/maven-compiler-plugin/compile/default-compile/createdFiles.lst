@@ -1,0 +1,8 @@
+cn\uaj\controller\LogAop.class
+cn\uaj\controller\OrdersController.class
+cn\uaj\controller\SysLogController.class
+cn\uaj\controller\UUIDController.class
+cn\uaj\controller\UserController.class
+cn\uaj\controller\ProductController.class
+cn\uaj\controller\PermissionController.class
+cn\uaj\controller\RoleController.class

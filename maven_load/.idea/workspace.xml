@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98b7ce30-be98-48c8-9cc5-2cd7194deff6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WL2gpDR2qYxp2pB4p2XrkAUcZI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager" selected="JUnit.UserMybatisTest.test">
+    <configuration name="AccountTest.testAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven_load" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.uaj.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.uaj.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.uaj.test.AccountTest" />
+      <option name="METHOD_NAME" value="testAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.testAccount1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven_load" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.uaj.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.uaj.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.uaj.test.AccountTest" />
+      <option name="METHOD_NAME" value="testAccount1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMybatisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven_load" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.uaj.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.uaj.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.uaj.test.UserMybatisTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMybatisTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven_load" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.uaj.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.uaj.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.uaj.test.UserMybatisTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserMybatisTest.test" />
+        <item itemvalue="JUnit.AccountTest.testAccount1" />
+        <item itemvalue="JUnit.AccountTest.testAccount" />
+        <item itemvalue="JUnit.UserMybatisTest.test4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98b7ce30-be98-48c8-9cc5-2cd7194deff6" name="Default Changelist" comment="" />
+      <created>1578914667611</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578914667611</updated>
+      <workItem from="1578914669608" duration="5804000" />
+      <workItem from="1582273762551" duration="1048000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578914834606">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578914834606" />
+    <state width="1860" height="292" key="GridCell.Tab.0.bottom" timestamp="1578923450167">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1860" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578923450167" />
+    <state width="1860" height="292" key="GridCell.Tab.0.center" timestamp="1578923450167">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1860" height="292" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578923450167" />
+    <state width="1860" height="292" key="GridCell.Tab.0.left" timestamp="1578923450167">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1860" height="292" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578923450167" />
+    <state width="1860" height="292" key="GridCell.Tab.0.right" timestamp="1578923450167">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1860" height="292" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578923450167" />
+  </component>
+</project>

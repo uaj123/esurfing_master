@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--把对象的创建交给spring来管理-->
+
+    <!--spring中的依赖注入
+        依赖注入：Dependency Injection  -> DI
+        IOC的作用：降低程序间的耦合（依赖关系）
+        依赖关系的管理：以后都由spring来维护，在当前类需要用到其他类的对象，有spring提供，只需在配置文件中说明
+        依赖关系的维护： 称之为依赖注入
+        依赖注入：能注入的数据：分为三类：
+            基本类型和String,其他bean类型（在配置文件或者注解配置过的bean)，复杂类型/集合类型
+        注入方式：三种：
+            使用构造函数注入，使用set方法提供，使用注解提供
+
+     -->
+    <bean id="accountService" class="cn.uaj.service.impl.AccountServiceImpl"></bean>
+    <bean id="accountDao" class="cn.uaj.dao.impl.AccountDaoImpl"></bean>
+
+    <bean id="accountService1" class="cn.uaj.service.impl.AccountServiceImpl1">
+        <!--基本类型和String注入-->
+        <property name="name" value="张三"></property>
+        <property name="age" value="18"></property>
+        <!--bean类型注入-->
+        <property name="date" ref="now"></property>
+
+        <!--复杂类型的注入/集合类型的注入
+            用于给List结构集合注入的标签：
+                list,array,set
+            用于给map集合注入的标签：
+                map，props
+            结构相同，标签可以互换
+
+        -->
+
+        <property name="myStrs">
+            <array>
+                <value>123</value>
+                <value>aaa</value>
+                <value>啊啊啊</value>
+                <idref bean="now"></idref>
+            </array>
+        </property>
+        <property name="myList">
+            <list>
+                <value>啊啊啊</value>
+                <value>aaa</value>
+                <value>3654</value>
+            </list>
+        </property>
+        <property name="mySet">
+            <set>
+                <value>啊啊啊</value>
+                <value>bbb</value>
+                <value>3654</value>
+            </set>
+        </property>
+        <property name="myMap">
+            <map>
+                <entry key="test1" value="999"></entry>
+                <entry key="test2" value="adso"></entry>
+                <entry key="test3" value="卡仕达"></entry>
+                <entry key="test3">
+                    <value>kkdja45k到</value>
+                </entry>
+            </map>
+        </property>
+        <property name="myProps">
+            <props>
+                <prop key="test2">kasdo</prop>
+                <prop key="test1">212a</prop>
+                <prop key="test3">sda达到</prop>
+            </props>
+        </property>
+    </bean>
+    <!--配置一个日期bean对象-->
+    <bean id="now" class="java.util.Date"></bean>
+
+</beans>

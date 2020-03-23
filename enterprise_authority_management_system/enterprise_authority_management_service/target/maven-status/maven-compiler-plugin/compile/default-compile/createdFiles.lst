@@ -1,0 +1,12 @@
+cn\uaj\service\ISysLogService.class
+cn\uaj\service\IUserService.class
+cn\uaj\service\IProductService.class
+cn\uaj\service\IOrdersService.class
+cn\uaj\service\IPermissionService.class
+cn\uaj\service\impl\IPermissionServiceImpl.class
+cn\uaj\service\impl\RoleServiceImpl.class
+cn\uaj\service\impl\ProductServiceImpl.class
+cn\uaj\service\impl\SysLogServiceImpl.class
+cn\uaj\service\IRoleService.class
+cn\uaj\service\impl\OrdersServiceImpl.class
+cn\uaj\service\impl\UserServiceImpl.class

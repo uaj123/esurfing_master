@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ac149332-3bf4-48e0-b199-26b81ce0be96" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WC6PbGBL5CvgqNARBGbkhlD49Q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaMethodFindUsagesOptions.isImplementingMethods" value="true" />
+    <property name="JavaMethodFindUsagesOptions.isSearchForTextOccurrences" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDE\IntelliJ_IDEA_2019.3\workspace\custom_mybatis\src\main\java\cn\uaj\dao" />
+      <recent name="D:\IDE\IntelliJ_IDEA_2019.3\workspace\custom_mybatis\src\main\java\cn\uaj\entity" />
+      <recent name="D:\IDE\IntelliJ_IDEA_2019.3\workspace\custom_mybatis\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.uaj.test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDE\IntelliJ_IDEA_2019.3\workspace\custom_mybatis\src\main\java" />
+      <recent name="D:\IDE\IntelliJ_IDEA_2019.3\workspace\custom_mybatis\src\main\resources" />
+      <recent name="D:\IDE\IntelliJ_IDEA_2019.3\workspace\custom_mybatis\src\main\resources\cn\uaj\dao" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyBatisTest.test3">
+    <configuration name="MyBatisTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="custom_mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.uaj.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.uaj.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.uaj.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="custom_mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.uaj.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.uaj.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.uaj.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="custom_mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.uaj.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.uaj.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.uaj.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="custom_mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.uaj.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.uaj.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.uaj.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="custom_mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.uaj.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.uaj.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.uaj.test.MyBatisTest" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyBatisTest.test3" />
+        <item itemvalue="JUnit.MyBatisTest.test6" />
+        <item itemvalue="JUnit.MyBatisTest.test4" />
+        <item itemvalue="JUnit.MyBatisTest.test5" />
+        <item itemvalue="JUnit.MyBatisTest.test2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac149332-3bf4-48e0-b199-26b81ce0be96" name="Default Changelist" comment="" />
+      <created>1578641205704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578641205704</updated>
+      <workItem from="1578641209260" duration="18240000" />
+      <workItem from="1578821821404" duration="1195000" />
+      <workItem from="1578835655813" duration="8000" />
+      <workItem from="1578835729077" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="889" y="358" key="#com.intellij.ide.util.MemberChooser" timestamp="1578668495035">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="889" y="358" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1578668495035" />
+    <state x="808" y="574" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1578668092536">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="808" y="574" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578668092536" />
+    <state x="654" y="487" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1578667535131">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="654" y="487" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1080@0.0.1920.1080" timestamp="1578667535131" />
+    <state width="1619" height="216" key="GridCell.Tab.0.bottom" timestamp="1578746963482">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1619" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1578746963482" />
+    <state width="1619" height="216" key="GridCell.Tab.0.center" timestamp="1578746963482">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1619" height="216" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1578746963482" />
+    <state width="1619" height="216" key="GridCell.Tab.0.left" timestamp="1578746963481">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1619" height="216" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1578746963481" />
+    <state width="1619" height="216" key="GridCell.Tab.0.right" timestamp="1578746963482">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1619" height="216" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1578746963482" />
+    <state x="252" y="376" key="Maven.ArtifactSearchDialog" timestamp="1578666944765">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="252" y="376" key="Maven.ArtifactSearchDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578666944765" />
+    <state x="360" y="299" key="SettingsEditor" timestamp="1578664269500">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="360" y="299" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1578664269500" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/cn/uaj/test/MyBatisTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

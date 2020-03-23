@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+			    http://www.springframework.org/schema/beans/spring-beans.xsd
+			    http://www.springframework.org/schema/context
+			    http://www.springframework.org/schema/context/spring-context.xsd
+			    http://www.springframework.org/schema/aop
+			    http://www.springframework.org/schema/aop/spring-aop.xsd
+			    http://www.springframework.org/schema/tx
+			    http://www.springframework.org/schema/tx/spring-tx.xsd
+			    http://www.springframework.org/schema/mvc
+			    http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!--dao层配置文件-->
+    <!--加载数据库连接配置文件-->
+    <context:property-placeholder location="classpath:properties/db.properties"/>
+    <!--配置连接池-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${driver}"/>
+        <property name="jdbcUrl" value="${url}"/>
+        <property name="user" value="${username}"/>
+        <property name="password" value="${password}"/>
+
+    </bean>
+    <!--配置sqlSessionFactory工厂-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!-- 给SessionFactory注入连接池对象 -->
+        <property name="dataSource" ref="dataSource"/>
+        <!--配置扫描pojo包，给包下所有pojo对象(普通的javaBean对象)起别名-->
+        <!--POJO对象有时也被称为Data对象，大量应用于表现现实中的对象。-->
+        <property name="typeAliasesPackage" value="cn.uaj.entity"/>
+
+        <!-- 指定Mybatis配置文件 管理mybatis插件等需要经常修改的内容-->
+        <property name="configLocation" value="classpath:mybatis/mybatis-config.xml"/>
+        <!-- 指定Mybatis映射文件，*Dao.xml 会匹配所有*Dao.xml文件 -->
+        <property name="mapperLocations" value="classpath:cn/uaj/dao/IOrderDao.xml"/>
+        <!-- 注意其他配置 配置分页拦截器插件-->
+        <!-- 传入PageHelper的插件 -->
+        <!-- <property name="plugins">
+            <array>
+                &lt;!&ndash; 传入插件的对象 &ndash;&gt;
+                <bean class="com.github.pagehelper.PageInterceptor">
+                    <property name="properties">
+                        <props>
+                            <prop key="reasonable">true</prop>
+                        </props>
+                    </property>
+                </bean>
+            </array>
+        </property>-->
+    </bean>
+    <!-- Spring负责扫描 @Service @Repository @Component,关闭默认扫描规则,
+	  		手动指定需要扫描的注解 ,解决service或其他的未被Spring托管的类事务失败的问题.-->
+    <context:component-scan base-package="cn.uaj" use-default-filters="false">
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Service"/>
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Repository"/>
+        <context:include-filter type="annotation" expression="org.springframework.stereotype.Component"/>
+    </context:component-scan>
+    <!--配置扫描接口包路径，生成包下所有接口的代理对象，并放入spring容器中-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!-- 配置当前项目中dao接口所在路径 -->
+        <property name="basePackage" value="cn.uaj.dao"/>
+        <!-- 配置当前dao需要操作的sqlSessionFactory -->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+    </bean>
+    <!--dao层配置文件-->
+</beans>

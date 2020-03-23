@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "redis.host",
+      "type": "java.lang.String",
+      "description": "Description for redis.host."
+    },
+    {
+      "name": "redis.host",
+      "type": "java.lang.String",
+      "description": "Description for redis.host."
+    },
+    {
+      "name": "user.name",
+      "type": "java.lang.String",
+      "description": "Description for user.name."
+    }
+  ] }

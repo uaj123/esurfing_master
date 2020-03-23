@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+			    http://www.springframework.org/schema/beans/spring-beans.xsd
+			    http://www.springframework.org/schema/context
+			    http://www.springframework.org/schema/context/spring-context.xsd
+			    http://www.springframework.org/schema/aop
+			    http://www.springframework.org/schema/aop/spring-aop.xsd
+			    http://www.springframework.org/schema/tx
+			    http://www.springframework.org/schema/tx/spring-tx.xsd
+			    http://www.springframework.org/schema/mvc
+			    http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!-- ===================整合Mybatis=================== -->
+    <!-- 引入spring-mybatis整合配置文件 -->
+    <import resource="classpath:spring/spring-mybatis.xml"/>
+    <!-- ===================整合Mybatis=================== -->
+
+    <!--service层配置-->
+    <!--配置注解扫描的包，让spring容器管理service-->
+    <context:component-scan base-package="cn.uaj.service"/>
+    <!--配置Spring的声明式事务管理-->
+    <!--配置spring的事务管理器-->
+    <bean id="dataSourceTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    <!-- 声明事务需要执行的方法 -->
+    <tx:advice id="txAdvice" transaction-manager="dataSourceTransactionManager">
+        <tx:attributes>
+            <!-- 切面通知具体的方法前缀,如果操作的方法不符合当前规则,则不会通知 -->
+            <tx:method name="add*" propagation="REQUIRED"/>
+            <tx:method name="save*" propagation="REQUIRED"/>
+            <tx:method name="delete*" propagation="REQUIRED"/>
+            <tx:method name="del*" propagation="REQUIRED"/>
+            <tx:method name="update*" propagation="REQUIRED"/>
+            <tx:method name="merge*" propagation="REQUIRED"/>
+            <tx:method name="upd*" propagation="REQUIRED"/>
+            <tx:method name="find*" read-only="true"/>
+        </tx:attributes>
+    </tx:advice>
+    <!-- 以注解的方式驱动事务 -->
+    <tx:annotation-driven/>
+    <!-- 声明事务切面 -->
+    <aop:config>
+        <!-- AOP切面 -->
+        <aop:pointcut expression="execution(* cn.uaj.service.*.*(..))" id="pointCut"/>
+        <!-- 通知边界(事务边界) -->
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="pointCut"/>
+    </aop:config>
+    <!--开启注解声明式事务管理-->
+    <!--<tx:annotation-driven transaction-manager="dataSourceTransactionManager"/>-->
+    <!--service层配置-->
+</beans>

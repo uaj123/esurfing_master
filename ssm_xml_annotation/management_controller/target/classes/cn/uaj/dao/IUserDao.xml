@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.uaj.dao.IUserDao">
+    <!-- 当前查询表中的所有的字段,方便重复引用. 方便后期维护
+            id : 当前mapper中唯一,被引用时指定id的值即可
+         -->
+    <sql id="usersColumns">
+        id,username,phoneNum,email,status
+    </sql>
+    <sql id="roleColumns">
+        id,roleName,roleDesc
+    </sql>
+
+    <resultMap id="userMap" type="userInfo">
+        <id column = "id" property = "id"/>
+        <result property = "username" column = "username"/>
+        <result property = "password" column = "password"/>
+        <result property = "phoneNum" column = "phoneNum"/>
+        <result property = "email" column = "email"/>
+        <result property = "status" column = "status"/>
+        <!-- 它是用于指定从表方的引用实体属性的 -->
+        <collection property="roles" ofType="Role">
+            <id property="id" column="id"/>
+            <result column="roleName" property="roleName"/>
+            <result column="roleDesc" property="roleDesc"/>
+            <collection property="permissions" ofType="permission">
+                <id property="id" column="id"/>
+                <result column="permissionName" property="permissionName"/>
+                <result column="url" property="url"/>
+            </collection>
+        </collection>
+    </resultMap>
+
+    <!--查询所有用户-->
+    <select id="findAllUserInfo" resultType="UserInfo">
+        <!--include 公共sql代码块
+			refid : 引用id, 指定需要引用的sql代码块的id-->
+        select <include refid="userColumns"></include> from users
+    </select>
+    <select id="findUserInfoByName" resultMap="userMap">
+        select users.usernam,users.password,role.roleName  from users,role,users_role
+        <where>
+            userId = roleId
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="username != null">
+                and username = #{username}
+            </if>
+            <if test="password != null">
+                and password = #{password}
+            </if>
+            <if test="phoneNum != null">
+                and phoneNum = #{phoneNum}
+            </if>
+            <if test="email != null">
+                and email = #{email}
+            </if>
+            <if test="status != null">
+                and status = #{status}
+            </if>
+        </where>
+    </select>
+</mapper>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--配置springmvc注解开发扫描的包-->
+    <context:component-scan base-package="cn.uaj"/>
+
+    <!--配置视图解析器-->
+    <bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/pages/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!--配置所有拦截器-->
+    <mvc:interceptors>
+        <!--配置MyInterceptor拦截器-->
+        <mvc:interceptor>
+            <!--此配置表示要拦截的方法-->
+            <mvc:mapping path="/user/*"/>
+            <!--
+            此配置表示不要拦截的方法
+            <mvc:exclude-mapping path="/user/testInterceptor"/>
+            -->
+            <!--配置拦截器对象-->
+            <bean class="cn.uaj.interceptor.MyInterceptor"/>
+        </mvc:interceptor>
+        <!--配置MyInterceptor1拦截器-->
+        <mvc:interceptor>
+            <mvc:mapping path="/user/*"/>
+            <bean class="cn.uaj.interceptor.MyInterceptor1"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+    <!--配置springMVC对注解开发的支持 -->
+    <mvc:annotation-driven/>
+</beans>

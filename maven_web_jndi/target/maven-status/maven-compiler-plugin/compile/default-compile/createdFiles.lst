@@ -1,0 +1,5 @@
+cn\uaj\dao\IUserDao.class
+cn\uaj\entity\QueryVo.class
+cn\uaj\entity\User.class
+cn\uaj\dao\IRoleDao.class
+cn\uaj\entity\Role.class

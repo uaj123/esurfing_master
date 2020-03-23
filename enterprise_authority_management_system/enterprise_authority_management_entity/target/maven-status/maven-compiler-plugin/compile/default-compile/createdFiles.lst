@@ -1,0 +1,8 @@
+cn\uaj\entity\Member.class
+cn\uaj\entity\Orders.class
+cn\uaj\entity\Permission.class
+cn\uaj\entity\Traveller.class
+cn\uaj\entity\UserInfo.class
+cn\uaj\entity\Product.class
+cn\uaj\entity\Role.class
+cn\uaj\entity\SysLog.class

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--链接表达式：@{} 该表达式与th:href th:src 写链接的属性中，自动葡醛项目根路径-->
+    <link rel="stylesheet" th:href="@{/main.css}" href="a.css"/>
+    <script>
+        var a = "[[${requestData}]]";
+        //alert(a);
+    </script>
+</head>
+<body>
+    <hr>
+    main页面123456789
+    <!--三种获取数据方式，属性表达式 ${#servletContext.getAttribute["key"]}-->
+    [[${requestData}]]
+    <span th:text="${requestData}">默认数据！</span>
+    <input type="text" th:value="${requestData}" value="默认数据"/>
+    <hr>
+    [[${session.sessionsData}]]
+    <hr/>
+    <table>
+        <thead>
+            <tr>
+                <td>序号</td>
+                <td>姓名</td>
+                <td>年龄</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="user,i : ${userList}" th:if="${i.count}%2 != 0">
+                <td >[[${i.count}]]</td>
+                <td th:text="${user.name}"></td>
+                <td >[[${user.age}]]</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
