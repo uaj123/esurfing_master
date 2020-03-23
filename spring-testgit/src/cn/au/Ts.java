@@ -7,7 +7,8 @@ package cn.au;
 public class Ts {
     public static void main(String[] args) {
         Usre d = new Usre("D", 3);
-
+        Strudent student = Strudent.getStudent();
+        System.out.println(student);
         System.out.println(d);
     }
 }
