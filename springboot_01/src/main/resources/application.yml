@@ -1,5 +1,5 @@
 server:
-  port: 8888
+  port: 8080
 #  改变根路径,项目访问路径
   servlet:
     context-path: /aaa

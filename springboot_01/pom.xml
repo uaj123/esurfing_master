@@ -127,7 +127,7 @@
             </resource>
         </resources>
         <plugins>
-            <!--打jar包：配置启动类，没有之歌插件jar包不能运行-->
+            <!--打jar包：配置启动类，没有这个插件jar包不能运行-->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>

@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "redis.key.expire.authCode",
+      "type": "java.lang.String",
+      "description": "Description for redis.key.expire.authCode."
+  }
+] }
