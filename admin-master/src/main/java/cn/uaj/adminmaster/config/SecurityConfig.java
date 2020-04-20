@@ -74,8 +74,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .permitAll()
                 .antMatchers(HttpMethod.OPTIONS) // 跨域请求会先进行一次options请求
                 .permitAll()
-//                .antMatchers("/**")  // 测试时全部运行访问
-//                .permitAll()
+                .antMatchers("/**")  // Swagger-UI测试时全部运行访问,正式运行需注释关闭
+                .permitAll() // Swagger-UI测试时全部运行访问,正式运行需注释关闭
                 .anyRequest() // 除上面外的所有请求全部需要鉴权认证
                 .authenticated();
         // 禁用缓存
