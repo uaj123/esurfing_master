@@ -6,7 +6,38 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2c0f2d2-b036-4b22-b8dd-1f99dc337f90" name="Default Changelist" comment="" />
+    <list default="true" id="c2c0f2d2-b036-4b22-b8dd-1f99dc337f90" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../account_aoptx_xml/src/test/java/cn/uaj/test/Account_Ioc_xml_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../account_aoptx_xml/src/test/java/cn/uaj/test/Account_Ioc_xml_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_tx_xml/src/main/java/cn/uaj/dao/IAccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../account_tx_xml/src/main/java/cn/uaj/dao/IAccountDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_tx_xml/src/main/java/cn/uaj/dao/impl/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../account_tx_xml/src/main/java/cn/uaj/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_tx_xml/src/main/java/cn/uaj/dao/impl/AccountDaoImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../account_tx_xml/src/main/java/cn/uaj/dao/impl/AccountDaoImpl2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_tx_xml/src/main/java/cn/uaj/entity/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../account_tx_xml/src/main/java/cn/uaj/entity/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_tx_xml/src/main/java/cn/uaj/service/IAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../account_tx_xml/src/main/java/cn/uaj/service/IAccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_tx_xml/src/main/java/cn/uaj/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../account_tx_xml/src/main/java/cn/uaj/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_tx_xml/src/main/java/cn/uaj/service/impl/AccountServiceImpl2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../account_tx_xml/src/main/java/cn/uaj/service/impl/AccountServiceImpl2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_tx_xml/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../account_tx_xml/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_tx_xml/src/test/java/cn/uaj/test/Account_tx_annotation_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../account_tx_xml/src/test/java/cn/uaj/test/Account_tx_annotation_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../account_tx_xml/src/test/java/cn/uaj/test/Account_tx_xml_Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../account_tx_xml/src/test/java/cn/uaj/test/Account_tx_xml_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin-master/src/main/java/cn/uaj/adminmaster/controller/PmsBrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../admin-master/src/main/java/cn/uaj/adminmaster/controller/PmsBrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin-master/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../admin-master/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin-master/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../admin-master/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lucene/out/production/lucene-01/IKAnalyzer.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lucene/out/production/lucene-01/cn/uaj/lucene/IndexManage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lucene/out/production/lucene-01/cn/uaj/lucene/LuceneFist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lucene/out/production/lucene-01/cn/uaj/lucene/QueryParse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lucene/out/production/lucene-01/hotword.dic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lucene/out/production/lucene-01/lib/IK-Analyzer-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lucene/out/production/lucene-01/lib/commons-io-2.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lucene/out/production/lucene-01/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lucene/out/production/lucene-01/lib/junit-4.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lucene/out/production/lucene-01/lib/lucene-analyzers-common-7.7.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lucene/out/production/lucene-01/lib/lucene-core-7.7.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lucene/out/production/lucene-01/lib/lucene-queryparser-7.7.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lucene/out/production/lucene-01/stopword.dic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_ssm_parent/maven_ssm_dao/src/main/resources/spring/applicationContext_dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssm_parent/maven_ssm_dao/src/main/resources/spring/applicationContext_dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_ssm_parent/maven_ssm_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssm_parent/maven_ssm_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maven_ssm_parent/maven_ssm_service/src/main/resources/spring/applicationContext_service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven_ssm_parent/maven_ssm_service/src/main/resources/spring/applicationContext_service.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +52,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -43,6 +77,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1XjhBYpG2UKWyWPbBnTSZx1hdCj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -54,7 +89,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/enterprise_authority_management_utils/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -212,6 +247,7 @@
       <workItem from="1581769749803" duration="47041000" />
       <workItem from="1582025774821" duration="21654000" />
       <workItem from="1582276887453" duration="15513000" />
+      <workItem from="1592557900068" duration="116000" />
     </task>
     <servers />
   </component>

@@ -8,6 +8,10 @@ import cn.uaj.entity.Account;
  */
 public interface IAccountDao {
     /**
+     * 保存
+     */
+    int saveAccount(Account account);
+    /**
      * 根据id查询账户
      * @return
      */
@@ -25,4 +29,6 @@ public interface IAccountDao {
      * @param account
      */
     void updateAccount(Account account);
+
+    void deleteAccountById(Integer id);
 }

@@ -47,4 +47,13 @@ public class Account_tx_xml_Test {
         accountService.transfer("bbb","aaa",100f);
         System.out.println("--------------------------");
     }
+    @Test
+    public void saveAccount(){
+        Account account1 = new Account("ggg", 1666f);
+        accountService.saveAccount(account1);
+    }
+    @Test
+    public void dete(){
+        accountService.deleteAccountById(333);
+    }
 }

@@ -15,6 +15,16 @@ import java.util.List;
  */
 public class AccountDaoImpl2 extends JdbcDaoSupport implements IAccountDao {
 
+    /**
+     * 保存
+     *
+     * @param account
+     */
+    @Override
+    public int saveAccount(Account account) {
+        return super.getJdbcTemplate().update("insert into account values (null,?,?);",account.getName(),account.getMoney());
+    }
+
     public Account findById(Integer id) {
         List<Account> accountList = super.getJdbcTemplate().query("select * from account where id = ?", new BeanPropertyRowMapper<Account>(Account.class), id);
         return accountList.isEmpty() ? null : accountList.get(0);
@@ -33,5 +43,11 @@ public class AccountDaoImpl2 extends JdbcDaoSupport implements IAccountDao {
 
     public void updateAccount(Account account) {
         getJdbcTemplate().update("update account set name = ?,money = ? where id = ?", account.getName(),account.getMoney(),account.getId());
+    }
+
+    @Override
+    public void deleteAccountById(Integer id) {
+        getJdbcTemplate().update("delete from account where id = ?",id);
+
     }
 }

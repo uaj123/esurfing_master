@@ -22,15 +22,29 @@ public class AccountServiceImpl implements IAccountService {
         this.accountDao = accountDao;
     }
 
+
+
+    /**
+     * 保存
+     *
+     * @param account
+     */
     @Override
-    public void saveAccount() {
+    public int saveAccount(Account account) {
         System.out.println("保存成功。。。。");
+        int a = accountDao.saveAccount(account);
 //         int i = 1 / 0;
+        return a;
     }
 
     @Override
     public Account findById(Integer id) {
         return accountDao.findById(id);
+    }
+
+    @Override
+    public void deleteAccountById(Integer id) {
+        accountDao.deleteAccountById(id);
     }
 
     @Override

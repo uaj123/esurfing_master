@@ -53,8 +53,8 @@ public class Account_Ioc_xml_Test {
     @Test
     public void saveTest(){
         Account account = new Account();
-        account.setName("张三");
-        account.setMoney(10002f);
+        account.setName("张三g");
+        account.setMoney(100029f);
         accountService.save(account);
         System.out.println("--------------------------");
     }

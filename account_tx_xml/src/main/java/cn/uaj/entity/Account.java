@@ -1,13 +1,22 @@
 package cn.uaj.entity;
 
+import java.io.Serializable;
+
 /**
  * @author wushaojie
  * @ 2020/1/27
  */
-public class Account {
+public class Account implements Serializable {
     private Integer id;
     private String name;
     private Float money;
+
+    public Account(String name, Float money) {
+        this.name = name;
+        this.money = money;
+    }
+
+
 
     public Integer getId() {
         return id;

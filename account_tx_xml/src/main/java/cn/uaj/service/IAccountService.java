@@ -8,14 +8,17 @@ import cn.uaj.entity.Account;
  * @ 2020/1/27
  */
 public interface IAccountService {
-    void saveAccount();
+    /**
+     * 保存
+     */
+    int saveAccount(Account account);
 
     /**
      * 根据id查询账户
      * @return
      */
     Account findById(Integer id);
-
+    void deleteAccountById(Integer id);
     /**
      * 根据名称查询账户
      * @param accountName

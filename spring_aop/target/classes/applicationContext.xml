@@ -60,17 +60,19 @@
             -->
             <aop:pointcut id="pt1" expression="execution(* cn.uaj.service.impl.*.*(..))"/>
 
-            <!--前置通知-->
-            <!--<aop:before method="printLogger" pointcut="execution(public void cn.uaj.service.impl.AccountServiceImpl.findAll())"></aop:before>-->
+<!--
+            &lt;!&ndash;前置通知&ndash;&gt;
+            &lt;!&ndash;<aop:before method="printLogger" pointcut="execution(public void cn.uaj.service.impl.AccountServiceImpl.findAll())"></aop:before>&ndash;&gt;
             <aop:before method="beforePrintLog" pointcut-ref="pt1"></aop:before>
-            <!--后置通知,它和异常通知永远只有一个执行-->
+            &lt;!&ndash;后置通知,它和异常通知永远只有一个执行&ndash;&gt;
             <aop:after-returning method="afterReturnPrintLog" pointcut-ref="pt1" ></aop:after-returning>
-            <!--异常通知-->
+            &lt;!&ndash;异常通知&ndash;&gt;
             <aop:after-throwing method="afterThrowingPrintLog" pointcut-ref="pt1"></aop:after-throwing>
-            <!--最终通知-->
+            &lt;!&ndash;最终通知&ndash;&gt;
             <aop:after method="afterPrintLog" pointcut-ref="pt1"></aop:after>
+-->
             <!--环绕通知-->
-            <!--<aop:around method="aroundPrintLog" pointcut-ref="pt1"></aop:around>-->
+            <aop:around method="aroundPrintLog" pointcut-ref="pt1"></aop:around>
        </aop:aspect>
     </aop:config>
 </beans>

@@ -40,9 +40,8 @@
         select <include refid="userColumns"></include> from users
     </select>
     <select id="findUserInfoByName" resultMap="userMap">
-        select users.usernam,users.password,role.roleName  from users,role,users_role
+        select <include refid="userColumns"></include>  from users
         <where>
-            userId = roleId
             <if test="id != null">
                 and id = #{id}
             </if>

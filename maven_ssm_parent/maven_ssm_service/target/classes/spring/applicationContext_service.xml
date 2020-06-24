@@ -17,6 +17,7 @@
 			    http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <import resource="classpath:spring/applicationContext_dao.xml"/>
+
     <!--service层配置文件-->
     <!--组件扫描配置-->
     <context:component-scan base-package="cn.uaj.service"/>

@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="management_entity" />
-        <module name="management_service" />
         <module name="management_dao" />
         <module name="management_controller" />
         <module name="management_utils" />
+        <module name="management_service" />
       </profile>
     </annotationProcessing>
   </component>

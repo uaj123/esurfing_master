@@ -4,5 +4,10 @@
       "name": "redis.key.expire.authCode",
       "type": "java.lang.String",
       "description": "Description for redis.key.expire.authCode."
-  }
-] }
+    },
+    {
+      "name": "spring.security.basic.enabled",
+      "type": "java.lang.String",
+      "description": "Description for spring.security.basic.enabled."
+    }
+  ] }

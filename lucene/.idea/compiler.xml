@@ -15,7 +15,7 @@
     <bytecodeTargetLevel>
       <module name="spring-data-jpa-01" target="8" />
       <module name="spring-data-jpa-02-specifications" target="8" />
-      <module name="spring-data-jpa-03-onetomany" target="1.5" />
+      <module name="spring-data-jpa-03-onetomany" target="8" />
       <module name="springboot_quick" target="1.8" />
     </bytecodeTargetLevel>
   </component>

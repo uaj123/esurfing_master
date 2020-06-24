@@ -18,6 +18,16 @@ public class AccountDaoImpl implements IAccountDao {
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
+    /**
+     * 保存
+     *
+     * @param account
+     */
+    @Override
+    public int saveAccount(Account account) {
+        return jdbcTemplate.update("insert into account values (null,?,?);",account.getName(),account.getMoney());
+    }
+
     public Account findById(Integer id) {
         List<Account> accountList = jdbcTemplate.query("select * from account where id = ?", new BeanPropertyRowMapper<Account>(Account.class), id);
         return accountList.isEmpty() ? null : accountList.get(0);
@@ -36,6 +46,11 @@ public class AccountDaoImpl implements IAccountDao {
 
     public void updateAccount(Account account) {
         jdbcTemplate.update("update account set name = ?,money = ? where id = ?", account.getName(),account.getMoney(),account.getId());
+    }
+
+    @Override
+    public void deleteAccountById(Integer id) {
+        jdbcTemplate.update("delete from account where id = ?",id);
     }
 
 

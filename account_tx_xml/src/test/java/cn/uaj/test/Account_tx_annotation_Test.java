@@ -44,4 +44,9 @@ public class Account_tx_annotation_Test {
         accountService.transfer("bbb","aaa",100f);
         System.out.println("--------------------------");
     }
+    @Test
+    public void saveAccount(){
+        Account account1 = new Account("看i是", 5555f);
+        accountService.saveAccount(account1);
+    }
 }

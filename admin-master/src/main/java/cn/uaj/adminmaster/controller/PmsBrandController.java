@@ -41,7 +41,7 @@ public class PmsBrandController {
     @ApiOperation("获取所有品牌列表")
     @RequestMapping(value = "/listAll",method = RequestMethod.GET)
     @ResponseBody
-    @PreAuthorize("hasAnyAuthority('pms:brand:read')")
+    @PreAuthorize("hasAnyAuthority('pms:brand:read')") // 只有这个权限才能访问
     public CommonResult<List<PmsBrand>> getList(){
         return CommonResult.success(pmsBrandService.listAllBrand());
     }
